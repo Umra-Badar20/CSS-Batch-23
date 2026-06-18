@@ -1,0 +1,26 @@
+/* p{
+    background-color: hsla(350, 100%, 88%, 0.5);
+     opacity: 0.5; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#para{
+    background-color: bisque;
+}
+.para2{
+    background-color: aqua !important;
+}
+h1,h2,h3, .para2{
+    color: blue;
+}
+div .para2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 200%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p span{
+    font-weight: 700;
+} */
