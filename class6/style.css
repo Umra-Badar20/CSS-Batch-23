@@ -1,0 +1,45 @@
+p:hover{
+    /* line-height: 32px;
+    word-spacing: 50px;
+    letter-spacing: 10px; */
+    text-indent: 50px;
+}
+h1::first-letter{
+    text-shadow: 3px 3px 2px green ;
+}
+h1:hover{
+    text-shadow: 3px 3px 2px yellow ;
+    cursor: pointer;
+
+}
+p::first-line{
+    text-shadow:
+      1px 1px 2px black,
+      0 0 1em blue,
+      0 0 0.2em blue;
+    color: white;
+    font:
+      1.5em "Georgia",
+      serif;
+  }
+
+  /* a:link{
+    color: rgb(20, 207, 220);
+  }
+  a:visited{
+    color: rgb(220, 20, 213); */
+  /* } */
+  a:active{
+    color: burlywood ;
+  }
+  input:focus{
+    background-color: aqua;
+    outline: none;
+    border: none;
+  }
+  p{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+  }
