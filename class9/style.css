@@ -1,0 +1,68 @@
+.orderedList {
+    /* list-style-type:  none; */
+    /* list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx9NHkuxRYNiVOLQ0r-01KwnO1wv6frPLTDEkeHJr-OLb7HojFDrRCqXy0&s=10) ; */
+    list-style-position: inside;
+}
+
+table {
+    width: 700px;
+    height: 400px;
+    empty-cells: hide;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-image: url(https://png.pngtree.com/png-vector/20240204/ourmid/pngtree-simple-pink-flower-png-image_11607032.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+th,
+td {
+    color: chocolate;
+    padding: 10px;
+    /* border: 2px solid black; */
+
+
+}
+
+.even {
+    background-color: rgba(255, 228, 196, 0.311);
+}
+
+table {
+    empty-cells: hide;
+    border-collapse: collapse;
+
+}
+
+tr:hover {
+    background-color: rgba(233, 150, 122, 0.429);
+    cursor: pointer;
+    /* transform:  scaleY(1.5); */
+    /* transform: rotate(5deg); */
+    /* transform: translate(-20px,-50px); */
+    /* transform: skew(2deg,2deg); */
+    transform: translate(10px, 20px) rotate(15deg) scale(1.3);
+    transition: 1s;
+}
+
+input {
+    font-size: 120%;
+    color: #ba8e36;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 40px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJriw6MLuW16o74U04mVnFtPBtbw4LLCUySO6E_8oZgoJ8oPRT17rQM8Q&s=10);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+button {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+label{
+    width: 100px;
+    display: inline-block;
+}
