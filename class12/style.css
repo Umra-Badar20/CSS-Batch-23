@@ -1,0 +1,64 @@
+@import url(index.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsShUTf8tEgh0J3zqsz0bqAHiCeQnWpyZLYGi00anYuApMT5INPkdHSO8&s=10);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(30, 61, 85, 0.37);
+    position: absolute;
+    top: 0;
+
+}
+.para1{
+    width: 30%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 6px;
+    float: left;
+}
+.para2{
+    width: 30%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 6px;
+      float: left;
+
+}
+.para3{
+    width: 30%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 6px;
+    float: right;
+}
+.fb{
+    color: blue;
+    font-size: 90px;
+    clear: both;
+}
+
+button{
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.mob{
+    color: green;
+}
+.para4{
+    clear: both;
+}
