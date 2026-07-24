@@ -19,6 +19,27 @@
 .box2{
     order: -1;
     flex-shrink: 2;
-    align-self: flex-end;
+    /* align-self: flex-end; */
     /* flex-grow: 2; */
 }
+
+@media only screen and (max-width:576px)and (min-width:100px){
+    .container{
+        background-color: rgb(132, 132, 232);
+        flex-direction: column-reverse;
+    }
+    .box5{
+        order: -2;
+    }
+}
+@media only screen and (min-width:1000px){
+    .container{
+        background-color: bisque;
+    }
+}
+
+/* @media only screen and (orientation:portrait){
+ .container{
+    background-color: aquamarine;
+ }
+} */
